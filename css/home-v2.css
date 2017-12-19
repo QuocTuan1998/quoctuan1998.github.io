@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
 }
 .headertop{
+    position: fixed;
     background-color: black;
     height: 61px;
 }
