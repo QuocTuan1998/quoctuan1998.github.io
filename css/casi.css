@@ -14,9 +14,8 @@ body{
 }
  .header{
     width: 100%;
-    position: relative;
-    background: blac;
-    position: relative;
+    position: fixed;
+    background: black;
  }
  .logo{
      float: left;
@@ -72,6 +71,7 @@ body{
      border-bottom: none;
  }
 .top{
+    padding-top: 70px;
     overflow: hidden;
 }
 

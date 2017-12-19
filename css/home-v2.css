@@ -14,9 +14,8 @@ body{
 }
  .header{
     width: 100%;
-    position: relative;
-    background: blac;
-    position: relative;
+    position: fixed;
+    background: black;
  }
  .logo{
      float: left;
