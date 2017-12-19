@@ -8,16 +8,22 @@ body{
     margin: 0;
 
    }
+.bx-prev{
+    z-index: 0 !important;
+}
+.bx-next{
+    z-index: 0 !important;
+}
 .headertop{
     background-color: black;
     width: 100%; 
     height: 61px;
 }
  .header{
+    position: fixed;
+    z-index: 1;
     width: 100%;
-    position: relative;
-    background: blac;
-    position: relative;
+    background: black;
  }
  .logo{
      float: left;
@@ -120,6 +126,8 @@ body{
     color: #9e9e9e;
 }
  .left-content{
+     
+    z-index: 1;
      float: left;
      width: 55%;
  }
@@ -128,6 +136,8 @@ body{
      width: 45%;
  }
  .content{
+     
+    padding-top: 50px;
      overflow: hidden;
  }
  .left-content .baihat{
@@ -196,4 +206,7 @@ body{
     margin: 0;
     padding: 20px 0;
     color: white;
+}
+.bx-wrapper .bx-controls-direction {
+    z-index: 0;
 }
